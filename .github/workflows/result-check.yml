@@ -2,8 +2,7 @@ name: Result check
 
 on:
   pull_request_target:
-    types:
-      - opened
+    types: [assigned, opened, synchronize, reopened]
     branches:
       - 'main'
       
